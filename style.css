@@ -1,0 +1,69 @@
+.card-illustration {
+    border: 3px solid blue;
+    height: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.header {
+    align-items: center;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    text-align: center;
+}
+
+.information-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.intro {
+    align-items: center;
+    background-color: #1f2937;
+    display: flex;
+}
+
+.intro-text, .intro-image-placeholder {
+    flex: 1;
+}
+
+.intro-image-placeholder {
+    align-items: center;
+    align-self: stretch;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+.quote-giver {
+    text-align: right;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
