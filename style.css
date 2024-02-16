@@ -10,36 +10,36 @@ body {
 }
 
 .card-text {
-    padding-top: 10px;
+    color: #1f2937;
     font-size: 14px;
-    color: #1f2937
+    padding-top: 10px;
 }
 
 .cta {
-    display: flex;
-    justify-content: space-around;
     background: #3882F6;
     border-radius: 5px;
-    gap: 20px;
-    padding: 40px 80px;
     box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 40px 80px;
 }
 
 .cta-button {
+    align-self: center;
     background:none;
     border: 2px solid white;
     border-radius: 8px;
-    padding: 8px 30px;
-    font-size:18px;
-    font-weight: bold;
     color: #F9FAF8;
     flex-shrink: 0;
-    align-self: center;
+    font-size:18px;
+    font-weight: bold;
+    padding: 8px 30px;
 }
 
 .cta-text p {
-    padding-top: 5px;
     font-size: 18px;
+    padding-top: 5px;
 }
 
 .cta-wrapper {
@@ -48,10 +48,10 @@ body {
 }
 
 .footer {
-    text-align: center;
     background-color: #1f2937;
-    padding: 40px 0;
     font-size: 16px;
+    padding: 40px 0;
+    text-align: center;
 }
 
 h1, h2, h3 {
@@ -63,8 +63,8 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
     color: #1f2937;
+    font-size: 36px;
     padding-bottom: 50px;
 }
 
@@ -85,8 +85,8 @@ h3 {
 }
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F9FAF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .information {
@@ -97,8 +97,8 @@ html {
 .information-wrap {
     display: flex;
     gap: 40px;
-    max-width: 800px;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .intro {
@@ -113,10 +113,10 @@ html {
     align-items: center;
     align-self: stretch;
     background-color: rgba(121, 126, 133, 0.993);
-    display: flex;
-    justify-content: center;
     color: #E5E7EB;
+    display: flex;
     font-size: 18px;
+    justify-content: center;
 }
 
 .intro-text, .intro-image-placeholder {
@@ -124,19 +124,19 @@ html {
 }
 
 .intro-text button {
-    padding: 8px 30px;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 18px;
     background-color: #3882F6;
     border:none;
+    border-radius: 8px;
     color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 30px;
 }
 
 .intro-text p {
-    padding: 10px 0;
-    font-size: 18px;
     color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px 0;
 }
 
 .logo {
@@ -145,8 +145,8 @@ html {
 }
 
 .max-width {
-    max-width: 1025px;
     margin: 0 auto;
+    max-width: 1025px;
 }
 
 p {
@@ -154,21 +154,21 @@ p {
 }
 
 .quote-giver {
-    text-align: right;
-    font-weight: bold;
-    padding-top: 10px;
     color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
     margin: 0 auto;
     max-width: 800px;
-    font-size: 24px;
+    padding-top: 10px;
+    text-align: right;
 }
 
 .quote-text {
-    font-size: 36px;
     color: #1f2937;
+    font-size: 36px;
     font-weight: 100;
-    max-width: 800px;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .quote-wrapper {
